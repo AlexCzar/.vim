@@ -1,0 +1,12 @@
+:source-highlighter: prettify
+== Installation
+WARNING: If you already have vim configuration you intend to keep, you're supposedly capable of adapting this guide for yourself :)
+As it is following commands will overwrite your config.
+
+[source,bash]
+.Configuration insallation
+----
+rm -rf ~/.vim ~/.vimrc; \
+git clone git@github.com:AlexCzar/.vim.git .vim; \
+ln -s ~/.vim/vimrc ~/.vimrc
+----
